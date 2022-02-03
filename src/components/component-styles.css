@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* SEÇÃO DE ESTILOS DO HEADER */
+
+.wrapper-header {
+  color: white;
+}
+
+.wrapper-nav {
+  align-items: center;
+  background: #f94d2f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.header-logo {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+nav {
+  margin-left: 0;
+}
+
+.header-menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #221f1f;
+  font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  .wrapper-nav {
+    text-align: center;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 800px) {
+  .header-menu-item {
+    margin-right: 30px;
+  }
+}
+
+/* SEÇÃO DE ESTILOA DO CARD */
+
+.wrapper-card {
+  background-color: #141212;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.wrapper-card:hover {
+  border: 2px solid #f94d2f;
+}
+
+.card-prod-image {
+  margin-top: 20px;
+}
+
+.card-prod-name {
+  margin-top: 10px;
+}
+
+.card-prod-price {
+  margin-bottom: 10px;
+}
+
+.botao-adicionar {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #221f1f;
+  text-decoration: none;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  outline: 1px solid white;
+}
+
+.botao-adicionar:hover {
+  background-color: #f94d2f;
+}
+
+.divider {
+  height: 2px;
+  background-color: #1c1c1c;
+  width: 70%;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+
+/* SEÇÃO DE ESTILOS DO CONTATO */
+
+.card-message {
+  background-color: #221f1f;
+  color: white;
+}
+
+.card-message h5 {
+  color: white;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.btn-message {
+  background: black;
+  border-radius: 5px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.3em;
+  font-weight: 100;
+  outline: 1px solid white;
+  text-decoration: none;
+}
+
+.btn-message:hover {
+  background-color: #f94d2f;
+  outline: 2px solid white;
+}
+
+.page-title {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.formulario {
+  border-radius: 5px;
+}
+
+/* SEÇÃO DE ESTLOS DA HOME */
+
+.category-content {
+  border-radius: 10px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  overflow: hidden;
+  text-align: center;
+}
+
+.category-title {
+  font-size: 2em;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.category-list {
+  align-items: center;
+  color: white;
+  display: flex;
+  font-size: 1.2em;
+  font-weight: 400;
+  font-weight: 100;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.divider-category {
+  background-color: #1c1c1c;
+  height: 2px;
+}
+
+@media (max-width: 500px) {
+  .category-list {
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
